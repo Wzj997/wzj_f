@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/feiche2.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('.jiantou').mouseenter(function(){
+                $('.xiala').show();
+            }).mouseleave(function(){
+                $('.xiala').hide();
+            })
+
+        })
+
+        window.onload = function(){
+            var oJ = document.getElementsByClassName('jiantou')[0];
+            var aImgs = oJ.getElementsByClassName('rank-img');
+            var aTxts = oJ.getElementsByClassName('pic-word');
+            var aDDs = oJ.getElementsByTagName('dd');
+      
+            for(var i = 0; i < aDDs.length; i++){
+                aDDs[i].index = i;
+                aDDs[i].onmouseover = function(){
+                    for(var j = 0; j < aDDs.length; j++){
+                        aImgs[j].style.display = 'none';
+                        aTxts[j].style.display = 'none';
+                    }
+                    aImgs[this.index].style.display = 'block';
+                    aTxts[this.index].style.display = 'block';
+                }
+                
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="header" class="container"><ul>
+        <li class="l"><a href="./index4.html"><img src='../飞车imgs/logo_o.png'></a></li>
+        <li class="l"><img src='../飞车imgs/logo_t.png'></li>
+        <li class="r jiantou">腾讯游戏排行榜<div class="xiala">
+            <dl class="l left">
+                <dt>新品端游排行榜</dt>
+                <dd><i>1</i>天涯明月刀<img src="../飞车imgs/x-1.jpg" class="rank-img"  style="display: block;">
+                    <div class="pic-word" style="display: block;">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>2</i>剑灵<img src="../飞车imgs/x-2.jpg" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div>
+                </dd>
+                <dd><i>3</i>穿越火线<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div>
+                </dd>
+                <dd><i class="active">4</i>逆战<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">5</i>qq炫舞<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">6</i>使命召唤online<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">7</i>魔兽<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">8</i>诛仙<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+            </dl>
+
+            <dl class="l middle">
+                <dt>热门端游排行榜</dt>
+                <dd><i>1</i>英雄联盟<img src="../飞车imgs/x-2.jpg" class="rank-img"  style="display: block;">
+                    <div class="pic-word" style="display: block;">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>2</i>穿越火线<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>3</i>地下城与勇士<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">4</i>天涯明月刀<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">5</i>qq炫舞<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">6</i>FIFA online4<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">7</i>逆战<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">8</i>QQ飞车<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                    <dd><i class="active">9</i>NBA2K Online 2<img src="../飞车imgs/x-3.png" class="rank-img">
+                        <div class="pic-word">
+                            <span>进入官网</span><span>下载游戏</span>
+                        </div></dd>
+            </dl>
+
+
+            <dl class="l right">
+                <dt>新品手游排行榜</dt>
+                <dd><i>1</i>雪鹰领主手游<img src="../飞车imgs/x-4.jpg" class="rank-img"  style="display: block;">
+                    <div class="pic-word" style="display: block;">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>2</i>火影忍者<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>3</i>欢乐斗地主<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">4</i>天天爱消除<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">5</i>qq飞车<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>          
+            </dl>
+
+            <dl class="l right">
+                <dt>热门手游排行榜</dt>
+                <dd><i>1</i>王者荣耀<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>2</i>和平精英<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i>3</i>穿越火线：枪战王者<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">4</i>火影忍者<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+                <dd><i class="active">5</i>天天爱消除<img src="../飞车imgs/x-3.png" class="rank-img">
+                    <div class="pic-word">
+                        <span>进入官网</span><span>下载游戏</span>
+                    </div></dd>
+            </dl>
+
+        </div></li>
+        <li class="r pic"><a href="./Index3.html">成长守护平台</a></li>
+    </ul></div>
+
+    <div id="main" class="container-fluid">
+      <div class="bannar container">
+          <div class="bar-lt ">
+              <dl><li></li>
+                  <dt></dt>
+                      <dd>bete67</dd>
+                      <dd>2020-9-24</dd>
+              </dl>
+          </div>
+          <div class="bar-lm ">
+            <dl><li></li>
+                <dt></dt>
+                    <dd>bete67</dd>
+                    <dd>2020-9-24</dd>
+            </dl>
+          </div>
+          <div class="bar-ln "><li></li><span></span></div>
+          <div class="bar-lb "><li></li><span></span></div>
+
+          <div class="bar-mid-video">
+              <video src="../飞车imgs/qqfeiche.mp4" controls="controls"  autoplay="autoplay" poster="../飞车imgs/vod20151218.jpg" width="100%" height="100%"></video>
+              <li class="lt"></li>
+              <li class="lb"></li>
+              <li class="rt"></li>
+              <li class="rb"></li>
+          </div>
+
+          <div class="bar-rgt">
+            
+                <span class="cor-l"></span>
+                <span class="cor-r"></span>
+                <a href="./index.html">
+              <span class="l"></span>
+              <span class="r"></span></a>
+            
+          </div>     
+      </div>
+
+      <div class="footer container-fluid">
+
+        <div class="fot-logo">
+            <ul class="clear">
+                <li class="l"><img src="../飞车imgs/foot-light.png" alt=""></li>
+                <li class="l"><img src="../飞车imgs/logo1.png" alt=""></li>
+                <li class="l"><img src="../飞车imgs/timi.png" alt=""></li>
+            </ul>
+        </div>
+
+
+        <div class="fot-cont">
+            <p>
+                腾讯互动娱乐<span class="o">|</span>服务条款<span class="o">|</span>隐私保护指引<span class="o">|</span>儿童隐私保护指引<span class="o">|</span>腾讯游戏招聘<span class="o">|</span>腾讯游戏客服<span class="o">|</span>游戏列表<span class="o">|</span>广告服务及商务合作<br>
+                腾讯公司版权所有<br>
+                COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.<br>
+                
+                著作权人：腾讯科技（深圳）有限公司　出版单位：深圳市腾讯计算机系统有限公司<br>
+                
+                <span class="t"><img src='../飞车imgs/gswj.png'>工商网监电子标识 |粤网文[2017]6138-1456号|（总）网出证（粤）字第057号<br></span>
+                出版物号：ISBN 978-7-900-17941-8|文网备字[2008]008号|全国文化市场统一举报电话：12318</p>
+        </div>
+        <div class="fot-tips">
+            <p><span>温馨提示：本游戏适合16岁(含)以上玩家娱乐；请您确定已如实进行实名注册；为了您的健康，请合理控制游戏时间。</span><br>
+抵制不良游戏&nbsp;&nbsp;拒绝盗版游戏&nbsp;&nbsp;注意自我保护&nbsp;&nbsp;谨防受骗上当&nbsp;&nbsp;适度游戏益脑&nbsp;&nbsp;沉迷游戏伤身&nbsp;&nbsp;合理安排时间&nbsp;&nbsp;享受健康生活</p>
+        </div>
+
+        <div class="gfooter"></div>
+      </div>
+
+      <div class="fix-logo"><img src="../飞车imgs/Logo.png" alt=""></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="36.1342" y1="37.4025" x2="73.9135" y2="37.4025">
+	<stop  offset="0" style="stop-color:#4CE4A1"/>
+	<stop  offset="1" style="stop-color:#2AEBEE"/>
+</linearGradient>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);" d="M39.82,21.277h30.408c2.036,0,3.686,1.65,3.686,3.686
+	v19.35c0,2.036-1.65,3.686-3.686,3.686H53.862c0,0-4.794,5.529-6.534,5.529c-1.562,0-3.288-5.529-3.288-5.529H39.82
+	c-2.036,0-3.686-1.65-3.686-3.686v-19.35C36.134,22.927,37.784,21.277,39.82,21.277z"/>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M53.937,55.132c0,7.89,0,13.682,0,13.682c0,2.209-1.791,4-4,4h-37c-2.209,0-4-1.791-4-4v-57c0-2.209,1.791-4,4-4h37
+	c2.209,0,4,1.791,4,4c0,0,0,0.035,0,1.826"/>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M9.797,55.117l30,0.001"/>
+<g>
+	<path style="fill:#00354E;" d="M68.437,20.368c0.551,0,1,0.449,1,1v21c0,0.551-0.449,1-1,1H50.675
+		c-0.869,0-1.696,0.378-2.266,1.034c-1.433,1.651-3.104,3.312-4.256,4.27c-0.433-0.872-0.925-2.086-1.274-3.198
+		c-0.391-1.253-1.551-2.106-2.864-2.106h-4.579c-0.551,0-1-0.449-1-1v-21c0-0.551,0.449-1,1-1H68.437 M68.437,17.368h-33
+		c-2.209,0-4,1.791-4,4v21c0,2.209,1.791,4,4,4h4.579c0,0,1.874,6,3.568,6c1.889,0,7.091-6,7.091-6h17.761c2.209,0,4-1.791,4-4v-21
+		C72.437,19.159,70.646,17.368,68.437,17.368L68.437,17.368z"/>
+</g>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#00354E;" d="M31.437,62.007c1.657,0,3,1.343,3,3s-1.343,3-3,3s-3-1.343-3-3
+	S29.78,62.007,31.437,62.007z"/>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M42.437,27.746h19"/>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M42.437,34.868h14"/>
+</svg>

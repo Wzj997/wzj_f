@@ -1,0 +1,305 @@
+      *{padding: 0px;margin: 0px;cursor: pointer;}
+        ul{list-style:none;}
+        .l{float: left;}
+        .r{float: right;}
+        .clear:after{content: '';display: block;clear: both;}
+        a{text-decoration: none;}
+        a:hover{color: #f81259;}
+        .container{width: 1010px;margin: 0 auto;position: relative;}
+        .container-fluid{width: 100%;position: relative;}
+        img{display: block;}
+
+
+        #header {height: 38px;padding-left: 44px;box-sizing: border-box;}
+        #header li:first-child{margin-right: 29px;margin-top: 3px;}
+        #header li.r{font-size: 14px;margin-top: 13px;margin-left: 19px;position: relative;}
+        #header li.pic:after{content: '';display: block;width: 18px;height: 18px;position: absolute;background:url(../飞车imgs/title_sprite.png) -36px -6px;left: -22px;top: 0px;}
+        #header li.jiantou:after{content: '';display: block;width: 6px;height: 10px;position: absolute;background:url(../飞车imgs/title_sprite.png) -12px -10px;right:-14px;top: 5px;transform: rotate(90deg);opacity: .1;}
+        #header li.jiantou{position:relative}
+        #header li.jiantou .xiala{
+            width: 740px;
+            height: 540px;
+            background-color: #ffffff;
+            display: none;
+            position: absolute;
+            left: -580px;
+            top: 25px;
+            z-index: 2;
+        }
+        /* #header li.jiantou:hover .xiala{display: block;} */
+        #header li.jiantou .xiala dl{text-align: center;}
+        #header li.jiantou .xiala dl.left{
+            width: 239px;
+            height: 100%;
+        }
+        #header li.jiantou .xiala dl dt {
+            margin: 8px 0 30px;
+            font-size: 14px;
+            color: #333333;
+            font-weight: bold;
+            position: relative;
+
+        }
+        #header li.jiantou .xiala dl.left dt:after{
+            content: '';display: block;width: 6px;height: 10px;position: absolute;background:url(../飞车imgs/title_sprite.png) -12px -10px;right:0;top:5px;transform: rotate(0deg);opacity: .1;
+        }
+        #header li.jiantou .xiala dl dd{
+            margin-bottom: 26px;
+            font-size: 12px;
+            color: #5e5e5e;
+            position: relative;
+            text-align: left;
+            padding-left: 100px;
+          
+        }
+        #header li.jiantou .xiala dl.middle{
+            width: 229px;  
+        }
+        #header li.jiantou .xiala dl.middle dd{padding-left: 95px;}
+        #header li.jiantou .xiala dl.middle dt:after{
+            content: '';display: block;width: 6px;height: 10px;position: absolute;background:url(../飞车imgs/title_sprite.png) -12px -10px;right:20px;top:5px;transform: rotate(0deg);opacity: .1;
+        }
+        #header li.jiantou .xiala dl.right{
+            width: 200px;
+        }
+        #header li.jiantou .xiala dl.right dd{padding-left: 85px;}
+        #header li.jiantou .xiala dl.right dt:after{
+            content: '';display: block;width: 6px;height: 10px;position: absolute;background:url(../飞车imgs/title_sprite.png) -12px -10px;right:10px;top:5px;transform: rotate(0deg);opacity: .1;
+        }
+        #header li.jiantou .xiala dl dd i{
+            display: inline-block;
+            position: absolute;
+            font-size: 14px;
+            width: 18px;
+            height: 18px;
+            color:#f9e8e8;
+            background-color: #c62828;
+            text-align: center;
+            z-index: 999;
+        }
+        #header li.jiantou .xiala dl dd i.active{background-color: #cccccc;}
+        #header li.jiantou .xiala dl.left dd i{top: 0;left: 70px;}
+        #header li.jiantou .xiala dl.middle dd i{top: 0;left: 65px;}
+        #header li.jiantou .xiala dl.right dd i{top: 0;left: 50px;}
+
+        #header li.jiantou .xiala dl dd .rank-img{position: absolute;top: 0px;right:-40px;z-index: 2;width: 190px;height: 80px;background-color: white;display: none;}
+        /* #header li.jiantou .xiala dl dd:hover img{display: block;} */
+        #header li.jiantou .xiala dl dd .pic-word{
+            width: 190px;
+            height: 20px;
+            font-size: 14px;
+            color: white;
+            background-color: #000000;
+            opacity:.5;
+            position: absolute;
+            right: -40px;
+            top: 60px;
+            display: none;
+            z-index: 3;
+        }
+        /* #header li.jiantou .xiala dl dd:hover .pic-word{display: block;} */
+        #header li.jiantou .xiala dl dd .pic-word span:nth-child(1){
+            margin-left: 5px;
+        }
+        #header li.jiantou .xiala dl dd .pic-word span:nth-child(2){
+            margin-left: 70px;
+        }
+
+
+        #main{background: url(../飞车imgs/yindaoye.jpg) no-repeat center 0;height: 1054px;box-sizing: border-box;padding-top: 291px;}
+        #main .bannar{background: url(../飞车imgs/index_con.png) no-repeat -5px 0;height: 335px;cursor: pointer;}
+        #main .bannar .bar-lt{background: url(../飞车imgs/index_con.png) -6px -350px no-repeat;width: 217px;height: 92px;position: absolute;top: 0;left: 0;margin: 8px;}
+        #main .bannar .bar-lt  dl {text-align: center;margin-top: 17px;margin-left: 50px;position: relative;width: 143px;height: 55px;}
+        #main .bannar .bar-lt  dl li{display: block;width: 34px;height: 34px;background: url(../飞车imgs/index_con.png) -6px -453px;position: absolute;left: -25px;top: 5px;}
+        #main .bannar  dl:hover li{animation: .5s leftmove;}
+        #main .bannar .bar-lt  dl dt{background: url(../飞车imgs/index_con.png) -191px -453px;display: block;width: 91px; height: 18px;margin: 9px auto;}
+        #main .bannar  dl:hover dt{animation: .5s rightmove;}
+        #main .bannar .bar-lt  dl dd{color: #faffe5;font-size: 12px;}
+        #main .bannar  dl:hover dd{animation: .5s rightmove;}
+        @keyframes leftmove{
+            0%{transform: translateX(-10px); opacity: 0;}
+            100%{transform: translateX(0px);opacity: 1;}
+        }
+        @keyframes rightmove{
+            0%{transform: translateX(10px); opacity: 0;}
+            100%{transform: translateX(0px);opacity: 1;}
+        }
+            
+        #main .bannar .bar-lm{background: url(../飞车imgs/index_con.png) -231px -350px no-repeat;width: 217px;height: 92px;position: absolute;top: 108px;left: 0;margin-left: 8px;}
+        #main .bannar .bar-lm  dl {text-align: center;margin-top: 17px;margin-left: 50px;position: relative;width: 143px;height: 55px;}
+        #main .bannar .bar-lm  dl li{display: block;width: 34px;height: 34px;background: url(../飞车imgs/index_con.png) -6px -453px;position: absolute;left: -25px;top: 5px;}
+        #main .bannar .bar-lm  dl dt{background: url(../飞车imgs/index_con.png) -296px -453px;display: block;width: 91px; height: 18px;margin: 9px auto;}
+        #main .bannar .bar-lm  dl dd{color: #faffe5;font-size: 12px;}
+        #main .bannar .bar-ln{background: url(../飞车imgs/index_con.png) -457px -350px no-repeat;width: 211px;height: 53px;position: absolute;top: 200px;left: 0;margin: 8px; text-align: center;}
+        #main .bannar .bar-lb{background: url(../飞车imgs/index_con.png) -685px -350px no-repeat;width: 211px;height: 53px;position: absolute;top: 261px;left: 0;margin: 8px;}
+        #main .bannar .bar-ln span{
+            background:url(../飞车imgs/index_con.png) -405px -452px;
+            width: 64px;
+            height: 18px;
+            position: absolute;
+            left: 78px;
+            top: 14px;
+           
+     
+        }
+        #main .bannar .bar-lb span{
+            background:url(../飞车imgs/index_con.png) -490px -452px;
+            width: 64px;
+            height: 18px;
+            position: absolute;
+            left: 78px;
+            top: 14px;
+
+        }
+        #main .bannar .bar-ln li{
+            display: block;
+            background: url(../飞车imgs/index_con.png) -96px -458px no-repeat;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 33px;
+            top: 13px;
+        }
+        
+        #main .bannar .bar-lb li{
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 33px;
+            top: 13px;
+            display: block;
+            background:url(../飞车imgs/index_con.png) -125px -458px no-repeat;
+        }
+        #main .bannar .bar-ln:hover li{animation: .5s leftmove;}
+        #main .bannar .bar-lb:hover li{animation: .5s leftmove;}
+        #main .bannar .bar-ln:hover span{animation: .5s rightmove;}
+        #main .bannar .bar-lb:hover span{animation: .5s rightmove;}
+        #main .bannar .bar-mid-video {
+            width: 500px;
+            height: 305px;
+            position: absolute;
+            left: 241px;
+            top: 10px;
+            outline: none;
+            position: relative;
+
+        }
+        #main .bannar .bar-mid-video video{
+            outline: none;
+            object-fit: cover;
+        }
+        #main .bannar .bar-mid-video .lt{display: block;width: 6px;height:6px;background:url(../飞车imgs/index_con.png) no-repeat -460px -422px;position: absolute;top: 0px;left: 0px;}
+        #main .bannar .bar-mid-video .lb{display: block;width: 6px;height:6px;background:url(../飞车imgs/index_con.png) no-repeat -480px -420px;position: absolute;left: 0px;bottom: 0px;}
+        #main .bannar .bar-mid-video .rt{display: block;width: 5px;height:5px;background:url(../飞车imgs/index_con.png) no-repeat -471px -420px;position: absolute;top: 0px;right: 0px;}
+        #main .bannar .bar-mid-video .rb{display: block;width: 5px;height:5px;background:url(../飞车imgs/index_con.png) no-repeat -491px -421px;position: absolute;right: 0px;bottom: 0px;}
+        
+        #main .bannar .bar-rgt{
+            background: url(../飞车imgs/index_enter_site.png) no-repeat 0 0;
+            width: 235px;
+            height: 123px;
+            position: absolute;
+            top: 0;
+            right: 25px;
+           
+        }
+        #main .bannar .bar-rgt span.l{
+            background: url(../飞车imgs/index_enter_site.png) no-repeat -251px -16px;
+            width: 42px;
+            height: 38px;
+            position: absolute;
+            left: 71px;
+            top: 38px;
+        }
+        #main .bannar .bar-rgt:hover span.l{animation: .5s leftmove;}
+        #main .bannar .bar-rgt span.r{
+            background: url(../飞车imgs/index_enter_site.png) no-repeat -295px -16px;
+            width: 42px;
+            height: 38px;
+            position: absolute;
+            left: 115px;
+            top: 38px;
+        }
+        #main .bannar .bar-rgt:hover span.r{animation: .5s rightmove;}
+        #main .bannar .bar-rgt span.cor-l{
+            width: 4px;
+            height: 47px;
+            background: url(../飞车imgs/index_enter_site.png) no-repeat -252px -64px;
+            position: absolute;
+            left: 2px;
+            top: 35px;
+        }
+        #main .bannar .bar-rgt span.cor-r{
+            width: 4px;
+            height: 47px;
+            background: url(../飞车imgs/index_enter_site.png) no-repeat -259px -63px;
+            position: absolute;
+            right: 4px;
+            top: 35px;
+        }
+       
+
+        #main .footer{
+            height: 239px;
+            padding: 150px 0 30px;
+            background-image: url(../飞车imgs/body_re_x.png);
+            background-repeat: repeat-x;
+     
+        }
+
+        #main .footer .fot-logo{
+            position: absolute;
+            left: 147px;
+            top: 183px;
+        }
+        #main .footer .fot-logo ul li{
+            margin-right: 10px;
+        }
+        #main .footer .fot-cont{
+            color:#ffffff;
+            font-size: 12px;
+            width: 651px;
+            height: 129px;
+            position: absolute;
+            top: 173px;
+            right: 177px;
+            line-height: 24px;
+                  
+        }
+        #main .footer .fot-cont span.o{margin: 0 2px;}
+        #main .footer .fot-cont span.t{position: relative;padding-left: 20px;}
+        #main .footer .fot-cont img{
+            display:inline-block;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        #main .footer .fot-tips{
+            font-size: 12px;
+            color:#6a676c;       
+            text-align: center;
+            height: 59px;
+            line-height: 20px;
+            border-top:1px solid #222222;
+            padding-top: 10px;
+            width: 980px;
+            margin-left: 165px;
+            position: absolute;
+            bottom: 10px;
+        }
+        #main .footer .fot-tips span{
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #main .footer .gfooter{
+            width: 100%;
+            position: absolute;
+            bottom: -10px;
+            z-index: -1;
+            height: 200px;
+            background-color: #000000;
+        }
+        #main .fix-logo{
+            position: fixed;
+            bottom: 0px;
+            right:10px;
+        }

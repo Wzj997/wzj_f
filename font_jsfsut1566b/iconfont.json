@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1703540",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "2154996",
+      "name": "播放器-播放（小电视）",
+      "font_class": "bofangqi-bofangxiaodianshi",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "2325914",
+      "name": "记录",
+      "font_class": "jilu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "3895520",
+      "name": "用户",
+      "font_class": "techreport-",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10939112",
+      "name": "搜索",
+      "font_class": "btn_search",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "16271359",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    }
+  ]
+}

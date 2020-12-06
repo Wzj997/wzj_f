@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/feiche4.css">
+        <style>
+            *{padding: 0;margin: 0;}
+            ul,ol{list-style: none;}
+            img{display: block;}
+            a{text-decoration: none;}
+            .l{float: left;}
+            .r{float: right;}
+            ::-webkit-scrollbar{width: 0px;}
+            #header{height: 90px;width: 100%;position:fixed;line-height: 90px;padding-right: 14px;box-sizing: border-box;z-index: 999;}
+            #header .logo{background: url(../飞车imgs/logo_2.png) no-repeat;width: 161px;height: 80px;margin: 5px 0 5px 116px;cursor: pointer;}
+            #header ul{font-size: 16px;color: #d6dee3;position: absolute;top: 0;right: 14px;height: 90px;transition: all .5s ease-in-out;opacity: 1;display: block;transform: translateX(0);}
+            #header ul li{float: left;margin-left: 42px;cursor: pointer;}
+            #header ul li:hover{color: #ffffff;}
+            #section1{width: 100%;position: relative;height: 667px;}
+            #section1 #main .video{height: 667px;}
+            #section1 #main .video:after{content: '';position: absolute;top: 0px;left: 0px;right: 0px;bottom: 0px;background-color: rgba(0,0,0,0.3);}
+            #section1 #main .video .v1{object-fit: cover;}
+            #main .text{height: 200px;width: 730px;position: absolute;color:#ffffff;top: 178px;text-align: center;left: 300px;}
+            #section1 #main .text h2{font-size: 100px;}
+            #section1 #main .text p{font-size: 38px;letter-spacing: 40px;margin-left: 34px;margin-top: 29px;}
+            #section1 #main .iconPlay{background: url(../飞车imgs/icon_play.png) no-repeat;display: block;position: absolute;bottom: 130px;left: 628px;width: 92px;height: 92px;cursor: pointer;}
+            #section1 #main .dash-bar{height:10px;width: 100px;position: absolute;bottom: 24px;left: 638px;}
+            #section1 #main .dash-bar .dash{width: 38px;background-color: #ffffff;display: inline-block;height: 10px;border-radius: 20px;margin-right: 20px;z-index: 10;}
+            #section1 #main .dash-bar .dash:last-child{width: 10px;background-color: #60636a;border-radius: 20px;height: 10px;}
+            #dot-bar{width: 36px;height: 278px;position: fixed;top: 156px;right: 104px;z-index: 999;transition: all .5s ease-in-out;}
+            #dot-bar i{display: block;width: 10px;height: 10px;background-color: #ffffff;border-radius: 50%;margin-top: 30px;position: relative;}
+            #dot-bar i:after{content: '';display: block;width: 8px;height: 8px;background-color: #ffffff;border-radius: 100%;position: absolute;left: 0px;top: 0px;transform: scale(3);border: 1px solid #ffffff;opacity: 0;}
+            #dot-bar i.active:after{content: '';display: block;width: 8px;height: 8px;background-color: #ffffff;border-radius: 100%;position: absolute;left: 0px;top: 0px;border: 1px solid #ffffff;opacity: 1;background: transparent;animation: scale .5s;}
+            @keyframes scale{
+                0%{transform: scale(2);}
+              
+                100%{transform: scale(3);}
+            }
+            @keyframes move{
+                0%{transform: translateY(150px);}
+              
+              100%{transform: translateY(0px);}
+            }
+       
+            #section1 #main p.desc{position: absolute;color: #fec8c8;font-size: 18px;bottom: 78px;width: 100%;text-align: center;line-height: 36px;display: none;}
+            .move{animation: move 1s;}
+            .moveleft{animation: moveleft 1s;}
+            .moveright{animation: moveright 1s;}
+        </style>
+          <script src="../js/feiche4.js"></script>
+        <script src="../js/startMove.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <div id="header">
+            <div class="logo l">
+            </div>
+            <ul class="r bannar">
+                <li>关于腾讯游戏</li>
+                <li>游戏介绍</li>
+                <li>品牌活动</li>
+            </ul>
+        </div>
+        <div id="dot-bar">
+            <i class="active"></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div id="section1" class="section">
+
+            <!-- <div id="header">
+                <div class="logo l">
+                </div>
+                <ul class="r">
+                    <li>关于腾讯游戏</li>
+                    <li>游戏介绍</li>
+                    <li>品牌活动</li>
+                </ul>
+            </div> -->
+            <div id="main">
+                <div class="video">
+                    <video src="../飞车imgs/qqfc_2.mp4" class="v1" width="100%" height="100%" muted='true' loop='true' autoplay='true'></video>
+                </div>
+                <div class="text">
+                    <h2><i>Spark More</i></h2>
+                    <p>去发现，无限可能</p>
+                </div>
+                <span class="iconPlay"></span>
+                <div class="dash-bar">
+                    <i class="dash"></i>
+                    <i class="dash"></i>
+                </div>
+                <!-- <div class="dot-bar">
+                    <i class="active"></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div> -->
+                <p class="desc">希望从游戏最本质的体验和精神触发，以快乐的基因<br>
+                    和不变的初心为原点，为游戏赋予更多元的价值和意义</p>
+            </div>
+        </div>
+
+
+        <div id="section2" class="section">
+            <div id="wrapper">
+                <div class="sucai"></div>
+                <img src="../飞车imgs/transition_2.png" class="bg-img">
+                <div class="figure"></div>
+            </div>
+                <div class="text-bar">
+                <h2><i>Game<br> Experience</i>
+                </h2>
+                <span class="exp">游戏体验</span>
+                <p>
+                    腾讯游戏致力于为玩家提供丰富优质的游戏体验，让玩家不只在游戏里收获快乐<br>
+                    也能体验多重身份、广交好友、感受多元文化腾讯游戏不断提升游戏品质、拓宽品类<br>
+                    打造极致的游戏体验，陪伴玩家一起发现游戏乐趣的无限可能</p>
+                    <span class="introduce">游戏介绍</span>
+            </div>
+        </div>
+
+        <div id="section3" class="section">
+            <div id="wrapper">
+                <div class="sucai"></div>
+                <img src="../飞车imgs/transition_3.png" class="bg-img">
+                <div class="figure"></div>
+            </div>
+            <div class="text-bar">
+                <h2><i>Game<br>Innovation</i> 
+                </h2>
+                <span class="exp"><i>游戏创新</i></span>
+                <p>腾讯游戏将不断探索创新，拓宽游戏的边界，发现更多创新玩法，通过游戏<br>
+                    与前沿科技的融合，为玩家提供更新奇的游戏体验和乐趣，同时推动游戏<br>
+                    行业的发展，发现游戏的更多可能</p>
+                    <ul>
+                        <li>NExT Studios</li>
+                        <li>腾讯游戏极光计划</li>
+                    </ul>
+                        
+            </div>
+        </div>
+
+        <div id="section4" class="section">
+            <div id="wrapper">
+                <div class="sucai"></div>
+                <img src="../飞车imgs/transition_4.png" class="bg-img">
+                <div class="figure"></div>
+            </div>
+            <div class="text-bar">
+                <h2><i>Game culture</i> 
+                </h2>
+                <span class="exp"><i>游戏文化</i></span>
+                <p>从游戏出发，腾讯游戏用数字的方式架起了文化与生活之间的桥梁<br>
+                    助力各类传统文化发出现代的表达，走进玩家以及更多年轻人的生活里<br>
+                    打造中国文化符号</p>
+                  <span class="number">TGC腾讯数字文创节</span>
+                        
+            </div>
+        </div>
+
+        <div id="section5" class="section">
+            <div id="wrapper">
+                <div class="sucai"></div>
+                <img src="../飞车imgs/transition_5.png" class="bg-img">
+                <div class="figure"></div>
+            </div>
+            <div class="text-bar">
+                <h2><i>Game<br> Responsibility</i>
+                </h2>
+                <span class="exp"><i>游戏责任</i></span>
+                <p>腾讯游戏不仅致力于为玩家提供更多元的游戏体验，更希望通 过游戏作为载体和平台<br>
+                    守护正向价值，传播人文关怀，激发更多社会正向能量。腾讯游戏不断探索游戏在社会中<br>
+                    扮演的角色积极主动承担社会责任，践行社会使命</p>
+                    <ul>
+                        <li>腾讯游戏成长守护平台</li>
+                        <li>腾讯游戏追梦计划</li>
+                        <li>腾讯游戏学院</li>
+                    </ul>
+                        
+            </div>
+        </div>
+
+        <div id="section6" class="section">
+            <div id="logo-up">
+                <ul>
+                    <li class="logo-pic"><img src="../飞车imgs/news2.png" alt="">
+                    <p>今天，腾讯游戏品牌全新升级<br><a>2019.11.21</a></p></li>
+                    <li class="logo-pic"><img src="../飞车imgs/news3.jpg" alt="">
+                        <p>腾讯马晓轶：推动数字文化高质量发展，共同打造中国文化符号<br><a>2019.8.1</a></p></li>
+                    <li class="logo-pic"><img src="../飞车imgs/news1.jpg" alt="">
+                        <p>腾讯程武：新文创是一场面向未来的文化生产“新实验<br><a>2019.3.24</a></p></li>
+                   
+                  
+                </ul>
+            </div>
+    
+            <div id="text-down">
+                <div class="list">
+    
+                    <dl class="concerned">
+                        <dt>关注我们</dt>
+                        <dd>微信</dd>
+                        <dd> 新浪微博</dd>
+                    </dl>
+                                                <dl class="join">
+                                                    <dt>加入我们</dt>
+                                                    <dd>社会招聘</dd>                                                      
+                                                    <dd>校园招聘</dd>
+                                                    <dd>国际招聘</dd>
+                                                </dl>
+                    <dl class="link">
+                        <dt>联系我们</dt>
+                        <dd>客户服务</dd>
+                        <dd>合作洽谈</dd>
+                        <dd>服务采购</dd>
+                    </dl>
+                                                <dl class="law">
+                                                    <dt>法律信息</dt>
+                                                    <dd>服务协议</dd>
+                                                    <dd>隐私政策</dd>
+                                                    <dd>知识产权</dd>
+                                                </dl>
+                </div>
+                <div class="f_pic"><img src="../飞车imgs/tencent.png" alt=""></div>
+                  <p class="footer">腾讯公司版权所有<br>COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.<br>
+                    <i></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工商网监电子标识<span class="f_line">|</span>粤网文[2020]3396-195号<span class="f_line">|</span>（署）网出证（粤）字第054号
+                </p>                          
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 240 240" style="enable-background:new 0 0 240 240;" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:#00354E;" d="M204.36,113.576c3.236,0,5.868,2.632,5.868,5.868v51.805c0,3.235-2.632,5.867-5.868,5.867h-11.295
+			c-1.749,0-3.295,1.137-3.818,2.806c-1.533,4.896-3.93,10.066-5.389,11.755c-2.608-1.342-8.793-7.102-14.068-13.182
+			c-0.76-0.876-1.862-1.379-3.022-1.379h-1.583h-42.232c-3.235,0-5.868-2.632-5.868-5.867v-51.805c0-3.235,2.632-5.868,5.868-5.868
+			H204.36 M204.36,109.576h-81.407c-5.45,0-9.868,4.418-9.868,9.868v51.805c0,5.45,4.418,9.867,9.868,9.867h42.232h1.583
+			c0,0,12.834,14.802,17.494,14.802c4.181,0,8.803-14.802,8.803-14.802h11.295c5.45,0,9.868-4.417,9.868-9.867v-51.805
+			C214.228,113.994,209.81,109.576,204.36,109.576L204.36,109.576z"/>
+	</g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="147.7424" y1="145.423" x2="196.5786" y2="145.423">
+		<stop  offset="0" style="stop-color:#4CE4A1"/>
+		<stop  offset="1" style="stop-color:#2AEBEE"/>
+	</linearGradient>
+	<path style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);" d="M172.222,166.324
+		c15.828-12.19,19.27-17.758,19.27-17.758s8.36-7.891,3.645-16.995c-3.609-7.33-14.639-10.758-22.977-1.203
+		c-8.337-9.555-19.367-6.127-22.977,1.203c-4.715,9.104,3.645,16.995,3.645,16.995s3.442,5.567,19.27,17.758H172.222z"/>
+	
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M158.486,166.324c15.828-12.19,19.27-17.758,19.27-17.758s8.36-7.891,3.645-16.995c-3.609-7.33-14.639-10.758-22.977-1.203
+		c-8.337-9.555-19.367-6.127-22.977,1.203c-4.715,9.104,3.645,16.995,3.645,16.995s3.442,5.567,19.27,17.758H158.486z"/>
+	
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M142.77,139.924c0,0-1.241-5.766,6.028-6.701"/>
+	
+		<path style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+		M115.412,169.067h-72.86c-5.113,0-9.258-4.145-9.258-9.258V44.089h157.38v67.299"/>
+	<polyline style="fill:none;stroke:#00354E;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;" points="60.224,128.836 
+		98.483,89.52 116.538,104.532 148.387,74.509 	"/>
+	<polygon style="fill:#00354E;" points="156.314,67.547 140.881,70.046 153.277,82.621 	"/>
+	
+		<line style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#00354E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="25.772" y1="44.083" x2="198.699" y2="44.083"/>
+</g>
+</svg>

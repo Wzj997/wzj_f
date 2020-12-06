@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/startMove.js"></script>
+    <link rel="stylesheet" href="../css/qqfeiche.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../font_7uunxzsjaj/iconfont.css">
+    <link rel="stylesheet" href="../font_okjhti4cp8g/iconfont.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>    
+    <script src="../js/feiche.js"></script>
+    <style>
+        #login{width: 623px;height: 369px;background-color: #ffffff;box-sizing: border-box;
+        border: 2px solid #eeeeee;padding-top: 37px;position: relative;z-index: 999;display: none;}
+        #login #close{width: 47px;height: 20px;position: absolute;top: 0px;right: 0px;outline: none;background-color: white;border: none;border-left: 1px solid #dedede;}
+        #login #close:hover{background-color: #d00627;color: white;}
+        #login h1{color: #333333;font-size: 20px;text-align: center;margin-bottom: 18px;font-weight: normal;}
+        #login p{text-align: center;font-size: 14px;color: #666666;line-height: 22px;}
+        #login #code_1{width: 132px;height: 132px;border: 1px solid #d3d3d3;margin: 37px auto 0px;}
+        #login #code_1 img{width: 100%;height: 100%;}
+        #login ul{width: 221px;height: 14px;font-size: 12px;color: #666666;position: absolute;bottom: 9px;
+        right: 13px;}
+        #login ul li{float: left;line-height: 14px;}
+        #login ul i{width: 1px;height: 12px;margin: 2px 8px 0 8px;display: block;background-color: #c5c5d5;
+        float: left;line-height: 14px;}
+    </style>
+  
+</head>
+<body>
+   
+    <div id="header" class="container">
+   
+
+            <div class="logo_o l"><a href="./index4.html"><img src="../飞车imgs/logo_o.png"></a></div>
+            <div class="logo_t l"><img src="../飞车imgs/logo_t.png" alt=""><div class="xiala"><img src="../飞车imgs/xiala.jpg" alt=""></div></div>
+            <ul class="r">
+                <li class="l grow"><a href="./Index3.html">成长守护平台</a></li>
+                <li class="l"><a>腾讯游戏排行</a></li>
+            </ul>
+        
+        <div id="logo-big"><img src="../飞车imgs/Logo.png" alt=""></div>
+    </div>
+    
+        <div id="nav" class="container-fluid" >
+           
+            <div id="menu"><a href="./index2.html">首页</a></div>
+            <div class="container">
+                <div class="logo_inside">
+                    <a href=""><img src="../飞车imgs/inside_logo.png" alt=""></a>
+                </div>
+                
+                <dl class="souye l">
+                    <dt></dt>
+                    
+                </dl>
+                
+                <dl class="ziliao l">
+                    <dt></dt>
+                    <dd><a>新手指引</a></dd>
+                    <dd><a class="hot" href="#">官方漫画</a></dd>
+                    <dd><a class="new">飞车手游</a></dd>
+                    <dd><a>精美壁纸</a></dd>
+                    <dd><a>游戏下载</a></dd>
+                  
+                    
+                </dl>
+                
+                <dl class="saishi l">
+                    <dt></dt>
+                    <dd><a class="hot" href="#">谁是车王</a></dd>
+                    <dd><a>scc</a></dd>
+                    <dd><a>全国公开赛</a></dd>
+
+                </dl>
+                <dl  class="zhongxin l">
+                    <dt></dt>
+                    <dd><a class="hot" href="#">版本专区</a></dd>
+                    <dd><a>合作专区</a></dd>
+                    <dd><a>CDk兑换</a></dd>
+                </dl>
+
+                <dl  class="kefu r">
+                    <dt></dt>
+                    <dd><a>客服中心</a></dd>
+                    <dd><a class="new">安全信用体系</a></dd>
+                 
+                </dl>
+
+                <dl  class="huzhu r">
+                    <dt></dt>
+                    <dd><a>官方论坛</a></dd>
+                    <dd><a class="hot">掌上飞车</a></dd>
+                    <dd><a>兴趣部落</a></dd>
+                    <dd><a>官方微信</a></dd>
+                    <dd><a>官方微博</a></dd>
+                   
+                </dl>
+
+                <dl  class="live r">
+                    <dt></dt>
+                    <dd><a>教学视频</a></dd>
+                    <dd><a>视频中心</a></dd>
+                
+                </dl>
+
+                <dl  class="zhuangqu r">
+                    <dt></dt>
+                    <dd><a>紫钻专区</a></dd>
+                    <dd><a>道聚城</a></dd>
+                    <dd><a>点劵充值</a></dd>
+                </dl>
+
+            </div>
+            
+  
+
+            <div id="bannar" class="container">
+                <div class="bannar-lt"><p>下载游戏</p><p>DOWNLOAD</p></div>
+                <div class="bannar-lb"><img src="../飞车imgs/56x56.jpg" alt="">
+                <p>欢迎<a id="btn_login">登录</a>。进入飞车世界</p>  
+            </div>
+         
+      
+
+
+                <div class="bannar-mid">
+
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-1.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-2.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-3.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-4.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-5.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-6.jpeg" alt=""></a></div>
+                            <div class="swiper-slide"><a href="123"><img src="../飞车imgs/mid-7.jpeg" alt=""></a></div>
+                        </div>
+                    </div>
+
+                    <div class="bannar-mid-bot">
+                        <div class="btn-left l"></div>
+                        <div class="btn-right r "></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <i class="lt"></i>
+                    <i class="lb"></i>
+                    <i class="rt"></i>
+                    <i class="rb"></i>
+                </div>
+
+
+                <div class="bannar-rgt r">
+                    <i class="r-lt"></i>
+                    <i class="r-lb"></i>
+                    <i class="r-rt"></i>
+                    <i class="r-rb"></i>
+                </div>
+            </div>
+        </div>
+           <div class="container clear">
+                <div id="content-l" class="l">
+                  <div class="btn-1"><span></span></div>
+                  <div class="btn-2"><span></span></div>
+                    <ul class="o">
+                        <li class="l"><a>点券充值</a></li>
+                        <li class="r"><a>视频中心</a></li>
+                        <li class="l"><a>开通紫钻</a></li>
+                        <li class="r"><a>官方论坛</a></li>
+                    </ul>
+                    <div class="list clear">
+
+                        <dl class="list-l l">
+                          <dt></dt>
+                            <dd><a>点亮图标</a></dd>
+                            <dd><a>SSc联赛</a></dd>
+                            <dd><a>补丁下载</a></dd>
+                            <dd class="new"><a>回归福利</a></dd>
+                            <dd><a>官方微信</a></dd>
+                            <dd class="hot"><a>官方漫画</a></dd>
+                          
+                        </dl>
+                        <dl class="list-r r">
+                            <dt></dt>
+                              <dd class="hot"><a>道聚城</a></dd>
+                              <dd><a>体验服</a></dd>
+                              <dd class="new"><a>新手礼包</a></dd>
+                              <dd><a>CDK兑换</a></dd>
+                              <dd class="new"><a>掌上飞车</a></dd>
+                              <dd><a>合作专区</a></dd>
+                            
+                          </dl>
+                    </div>
+
+                    <div class="title"><div class="line-l l"></div>客服中心<div class="line-r r"></div></div>
+
+
+                    <ul class="t">
+                        <li class="l"><a>封号查询</a></li>
+                                        <li class="r"><a>密码找回</a></li>
+                        <li class="l"><a>用户协议</a></li>
+                                        <li class="r"><a>玩家条例</a></li>
+                        <li class="l"><a>安全中心</a></li>
+                                        <li class="r"><a>防沉迷</a></li>
+                        <li class="l"><a>家长监控</a></li>
+                                        <li class="r"><a>皇族点亮</a></li>
+                    </ul>
+                    <div class="qq-area">
+                        <div class="qq"></div>
+                        <div class="qq-btn">QQ飞车合作媒体站点<i></i></div>
+                        <div class="qq-btn second">QQ飞车合作伙伴站点<i></i></div>
+                        <div class="show_list"><ul>
+                            <li><a>电脑管家游戏福利</a></li>
+                            <li><a>3366小游戏</a></li>
+                            <li><a>17173</a></li>
+                            <li><a>腾讯文学</a></li>
+                            <li><a>腾讯游戏</a></li>
+                            <li><a>多玩游戏网</a></li>
+                            <li><a>爱拍游戏</a></li>
+                            <li><a>U9</a></li>
+                            <li><a>52PK</a></li>
+                            <li><a>131</a></li>
+                            <li><a>178</a></li>
+                            <li><a>766</a></li>
+                            <li><a>5617</a></li>
+                            <li><a>TGBUS</a></li>
+                            <li><a>叶子猪</a></li>
+                            <li><a>硅谷动力</a></li>
+                            <li><a>快车-多来米</a></li>
+                            <li><a>土豆网</a></li>
+                            <li><a>腾讯微博</a></li>
+                            <li><a>太平洋游戏网</a></li>
+                            <li><a>4399</a></li>
+                        </ul></div>
+                        <div class="show_list"><ul>
+                            <li><a>赛睿</a></li>
+                            <li><a>北通品牌</a></li>
+                            <li><a>康师傅香爆脆</a></li>
+                            <li><a>AMD</a></li>
+                            <li><a>飞杰科思科技</a></li>
+                            <li><a>深圳格威尔电子</a></li>
+                            <li><a>魔法士干脆面</a></li>
+                            <li><a>魔法少女</a></li>
+                        </ul></div>
+                    </div>
+                 </div>
+
+             
+
+                    <div id="content-middle" class="clear l">
+                        <h3 class="more">新闻<span>news</span></h3>
+                        <ul id="btn1">
+                            <li class="active button_1"><i  class="active li_1"></i>综合</li>
+                            <li class="button_1"><i class="li_1"></i>活动</li>
+                            <li class="button_1"><i class="li_1"></i>公告</li>
+                            <li class="button_1"><i class="li_1"></i>赛事</li>
+                            <li class="button_1"><i class="li_1"></i>论坛</li>
+                        </ul>
+                        <div class="cont-t">
+
+                            <h4>周末折扣宝箱福利，限时5折+3倍概率不容错过！</h4>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>周末折扣宝箱福利，限时5折+3倍概率不容错过！</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>商城特卖惊喜更新，总有一款合你心意！</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>【车神宝藏】强势更新，车神暴击永久T2亡灵收割者！</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>周三折扣宝箱福利，限时5折+3倍概率！</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[SSC]<a>SSC2020秋季赛S3分站赛开赛在即，一起飞驰吧！</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>摘星阁金秋惊喜更新，永久S车雪域冰魄强势来袭！</a><span class="r">09/30</span></p>
+
+
+                        </div>
+                       
+                        <div class="cont-t">
+
+                            <h4>9.32-10.8 送38888点券+28888消费券+先行者雷诺</h4>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>极速之夜 秒夺极品</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[活动]<a>幻镜双生献礼掌飞 做任务兑永久套装</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>关于10月5日多倍活动结束时间延长的公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3北部复活赛 八强名单强势出炉</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3北部淘汰赛 老将杜洪伟轻松晋级</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3南部复活赛 韦日健大放异彩 大比分领先拿下比赛</a><span class="r">09/30</span></p>
+
+
+                        </div>
+
+                        <div class="cont-t">
+
+                            <h4>小橘子来向广大车手征集意见啦！</h4>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>关于利用问题账号非法获得车队积分的处理公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>关于10月11日整点奖励无法正常到账的公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>关于10月5日多倍活动结束时间延长的公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>关于登录送消费券任务变动的公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>点券、幸运币、幸运召唤卡月末清空公告——9月</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公告]<a>9月28日不停机更新补丁发布</a><span class="r">09/30</span></p>
+
+
+                        </div>
+                        
+                        <div class="cont-t">
+
+                            <h4>SSC2020秋季赛S3分站赛开赛在即，一起飞驰吧！</h4>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[SSC]<a>SSC2020秋季赛S2分站海选晋级名单&奖励发放公告</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3东北对抗赛C、D组 沈成、徐瑞成功晋级</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3东北对抗赛A、B组 杜洪伟携手朱渝航晋级</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3西南对抗赛C、D组 曹皓然、欧阳聪耀挺进总决赛</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公公开赛S3西南对抗赛A、B组 黄国发、易鸿达率先晋级</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[公开赛]<a>公开赛S3赛区对抗 10月8日精彩上演！</a><span class="r">09/30</span></p>
+
+
+                        </div>
+
+                        <div class="cont-t" style="display: block;">
+
+                            <h4>【爆料】【qq飞车官方测试】-?赛道随心造全新赛道跑法大解析?</h4>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【团队招募】QQ飞车测试团2018年新春招募 </a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【团队招募】?﹏QQ飞车<极速梦想测试团>跨年盛大招募 </a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【团队招募】QQ飞车赛道设计团2018新年盛大招募</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【分享】周年币拿下穿梭者</a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【飞驰之王】Ycbb战丶陈小汪 海洋公园 2.09.66（爆天甲) </a><span class="r">09/30</span></p>
+                            <p><i></i>&nbsp;&nbsp;&nbsp;&nbsp;[论坛精华]<a>【极限之王原装版】丶Gz女神丨瑶瑶 猴园春色1.18.27（S）</a><span class="r">09/30</span></p>
+
+
+                        </div>
+                        
+                        <div class="cont-b clear">
+                            <h3>赛事<span class="o">event</span></h3>
+                            <ul class="o" id="btn2">
+                                <li class="button_2 active"><i class="li_2 active"></i>谁是车王</li>
+                                <li class="button_2"><i class="li_2"></i>全国公开赛</li>
+                                <li class="button_2"><i class="li_2"></i>SSC</li>
+                            </ul>
+
+                            <div class="div1"  style="display: block;">
+                            <div class="saishi l"><img src="../飞车imgs/车王.jpeg" alt=""></div>
+                            <h4>赛程预告！QQ飞车2020年下半年赛事一览</h4>
+                            <ul class="l t">
+                                
+
+                                <li><a>赛程预告！QQ飞车2020年下半年赛事一览</a></li>
+                            <li><a>恭喜江章闯，虎牙直播谁是车王S9夺冠回馈夜预告！</a></li>
+                                <li><a>车王江章闯！重返巅峰，S9冠军专访！</a></li>
+                                <li><a>谁是车王S9“车王竞猜”活动排名公示</a></li>
+                                <li><a>S9总决赛回顾 用速度与激情拥抱电竞之路</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="div1">
+                            <div class="saishi l"><img src="../飞车imgs/赛事.jpeg" alt=""></div>
+                            <h4>公开赛S3北部复活赛 八强名单强势出炉</h4>
+                            <ul class="l t">
+                                
+
+                                <li><a>公开赛S3北部复活赛 八强名单强势出炉</a></li>
+                            <li>公开赛S3北部淘汰赛 老将杜洪伟轻松晋级</a></li>
+                                <li><a>公开赛S3南部复活赛 韦日健大放异彩 大比分领先拿下比赛</li>
+                                <li><a>公开赛S3南部淘汰赛 黑马廖功林爆冷晋级</a></li>
+                                <li><a>公开赛南、北部16强出战，线上观赛共度双节！</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="div1">
+                            <div class="saishi l"><img src="../飞车imgs/SSC.jpg" alt=""></div>
+                            <h4>SSC2020春季赛S1分站海选晋级名单&奖励发放公告</h4>
+                            <ul class="l t">
+                                
+
+                                <li><a>SSC2020秋季赛S3分站赛开赛在即，一起飞驰吧！</a></li>
+                            <li>SSC2020秋季赛S2分站海选晋级名单&奖励发放公告</a></li>
+                                <li><a>关于10月10日SSC秋季赛S3延迟报名的公告</a></li>
+                                <li><a>S2分站连战五天，十一长假相约SSC赛场！</a></li>
+                                <li><a>SSC2020秋季赛S1分站海选晋级名单&奖励发放公告</a></li>
+                            </ul>
+                        </div>
+
+
+                        </div>
+                        
+                        <div class="video clear">
+
+                            <h3 class="more">视频<span class="o">event</span></h3>
+                            <ul class="three" id="btn3">
+                                <li class="button_3 active"><i class="li_3 active"></i>最新</li>
+                                <li class="button_3"><i class="li_3"></i>推荐</li>
+                                <li class="button_3"><i class="li_3"></i>教学</li>
+                                <li class="button_3"><i class="li_3"></i>赛车</li>
+                                <li class="button_3"><i class="li_3"></i>赛事</li>
+                                <li class="button_3"><i class="li_3"></i>官方</li>
+                            </ul>
+
+
+                            <div class="pic clear" style="display: block;">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-5.jpg" alt=""><p>【飞驰之王】帅天e无念 城市游泳馆 1.43.82 （A）</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-6.jpg" alt=""><p>化羽：天空之城个人极限1.19.62(A)</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-7.jpg" alt=""><p>幸运星丶大梦游家古城1.10.98show time</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-8.jpg" alt=""><p>雪哥说车：飞车史上名字和车子最不符合的S车速度之魔</p></div>
+                            </div>
+
+                            <div class="pic clear">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-9.jpg" alt=""><p>朕哥：富婆珊珊的衣服仓库！永远不知道土豪妹子玩的什么游戏</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-10.jpg" alt=""><p>晓凯解说：QQ飞车首发S车至尊爆天甲，性能有望超越所有S车！</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-11.jpg" alt=""><p>B车边境实战篇</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-12.jpg" alt=""><p>飞车世界中的一百辆s车+T3全家福！史上最全系列！</p></div>
+                            </div>
+
+                            <div class="pic clear">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-1.jpg" alt=""><p>飞车世界中的一百辆s车+T3全家福！史上最全系列！</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-2.jpg" alt=""><p>意境组十周年车队宣传片</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-3.jpg" alt=""><p>头戴皇冠！S9车王冠亚季军试驾至尊·盘龙！</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-4.jpg" alt=""><p>十一城单挑：梦想家05发货！</p></div>
+                            </div>
+
+                            <div class="pic clear">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-13.png" alt=""><p>【飞车研究院】首发T1黄蜂特警，手感真的“绝”~</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-14.jpg" alt=""><p>【飞车擎报局】T2机甲赛车 白龙马测评</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-15.jpg" alt=""><p>【QQ飞车】原画师看了想哭的首发T2机甲白龙马测评来袭</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-16.png" alt=""><p>QQ飞车端手游同款A车赛博战士，这特效i了i了！</p></div>
+                            </div>
+
+                            <div class="pic clear">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-17.jpg" alt=""><p>QQ飞车全国公开赛 S3_东北赛区_C、D组对抗晋级赛</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-18.jpg" alt=""><p>QQ飞车全国公开赛 S3_东北赛区_对抗赛_D组</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-19.jpg" alt=""><p>头QQ飞车全国公开赛 S3_东北赛区_对抗赛_C组</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-20.jpg" alt=""><p>QQ飞车全国公开赛 S3_西南赛区_C、D组对抗晋级赛</p></div>
+                            </div>
+
+                            <div class="pic clear">
+                                <div class=" l"><span></span><img src="../飞车imgs/v-21.jpg" alt=""><p>QQ飞车排位赛S21赛季新增地图《英伦古堡》赛道教学</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-22.jpg" alt=""><p>QQ飞车排位赛S21赛季新增地图《故园归醉》赛道教学</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-23.jpg" alt=""><p>QQ飞车9月新版本新赛道轨道物理教学视频</p></div>
+                                <div class=" l"><span></span><img src="../飞车imgs/v-24.jpg" alt=""><p>《QS极速幻境》介绍视频</p></div>
+                            </div>
+
+
+                        </div> 
+                    </div>
+                            <div id="content-right" class="r clear ">
+                                <div class="right_t">
+                                    <h3>活动</h3>
+                                    <div class="pic-box">
+                                        <img src="../飞车imgs/r-1.jpeg" alt=""><span class="pic-word">版本页面</span> 
+                                    </div>
+                                    <div class="pic-box">
+                                        <img src="../飞车imgs/r-2.jpeg" alt=""><span class="pic-word">萌新</span>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="right_b">
+                                    <h3>版本相关</h3>
+                                    <div class="pic-box">
+                                        <img src="../飞车imgs/r-3.jpeg" alt=""><span class="pic-word">版本</span>
+                                    </div>
+                                    <div class="pic-box">
+                                        <img src="../飞车imgs/r-4.jpg" alt=""><span class="pic-word">qq飞车精美时装</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+           </div>
+           
+           <div class="container">
+
+               <div class="footer clear">
+
+                <div class="fot_pic clear"><img src="../飞车imgs/timi.png" alt="" class="clear">
+                    <img src="../飞车imgs/logo1.png" alt="" class="clear">
+                <img src="../飞车imgs/foot-light.png" alt=""class="clear"></div>
+                
+                <p class="content clear">
+                    腾讯互动娱乐|服务条款|隐私保护指引|儿童隐私保护指引|腾讯游戏招聘|腾讯游戏客服|游戏列表|广告服务及商务<br>合作<br>
+                    腾讯公司版权所有<br>
+                    COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.<br>
+                    <span><img src="../飞车imgs/gswj.png">工商网监电子标识 |粤网文[2017]6138-1456号|（总）网出证（粤）字第057号</span><br>
+                    著作权人：腾讯科技（深圳）有限公司　出版单位：深圳市腾讯计算机系统有限公司<br>
+                    出版物号：ISBN 978-7-900-17941-8|文网备字[2008]008号|全国文化市场统一举报电话：12318</p>
+            
+
+
+               <div class="tips clear"><p>温馨提示：本游戏适合16岁(含)以上玩家娱乐；请您确定已如实进行实名注册；为了您的健康，请合理控制游戏时间。</p>
+                <p>
+                <span>抵制不良游戏</span>
+                <span>拒绝盗版游戏</span>
+                <span>注意自我保护</span>
+                <span>谨防受骗上当</span>
+                <span>上当适度游戏</span>
+                <span>上当适度游戏</span>
+                <span>上当适度游戏</span>
+                <span>上当适度游戏</span>
+
+                <p></div>
+           </div>
+           <div id="login">
+            <button id="close">X</button>
+            <h1>快速安全登录</h1>
+            <p>请使用QQ手机版扫描二维码，</p>
+            <p>安全登录，防止盗号。</p>
+            <div id="code_1">
+                <img src="../飞车imgs/ptqrshow" alt="">
+            </div>
+            <ul>
+                <li>帐号密码登录</li>
+                <i></i>
+                <li>注册新帐号</li>
+                <i></i>
+                <li>意见反馈</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>    
+    <script src="../js/feiche.js"></script>
+</body>
+</html>

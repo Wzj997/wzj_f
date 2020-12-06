@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1601891866930'); /* IE9 */
+  src: url('iconfont.eot?t=1601891866930#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQwAAsAAAAACDAAAAPhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEQIN+ATYCJAMICwYABCAFhG0HLBsgB8gOJU3BwACggA9EBNFaVj07QVSIMp4Vgw4LFeGAn92/sazEezbihn9Pe68Z0zsXmzOp7WA0BxZJ4RQHMdOB/KSCk/+M/zlmuvQB5geaS2RZVNLeAEfROqCIPIvEA74DxRvGrryIywSqdUkG56saOoCfzJgViEuDTgX8Ugq5JjpUCuUlG7N4AmUq07XgGgAe/b+P/yAt/EjKCkbc2nGlFpT8GmD6IdP/T3fkIgBzPB3YNgpMADKxVWpYgYSuCYhqxeClrz47C341/i+5jNX+4xFEOUNQC7EdjHNi2qxTFSRXlFv1fgYi9/qx1NbVtcX6+7f69232HaBayOVtPSlavVq8ja+WLOLzt50S07RoK1flzfNxXVIp5DmcYZRA/Ea8jVWqeoNkkoUihsFRhsM7UVFydwDDCnfwUvRUpZDncZqNWcSTC/dzB07sY/cOWbv3+H7+wLF9yk6udQgjEk0X040OlXZBfHr31s7eNTtoZdeeGJpevbpze7SdMhQ9x1VtVLLaSw/hI88xOKDZashpVjMdKMdJOlhWKLzlh/w7KLVGjc48+POUPGrME8H5FyW2JG7jz8sI23Mf8zHC3qB7qojUSLh0xf1N3pu9l98HSyMjIlpPrAm2wNm9Wk+YAsHaJIeC6gG0HjoY2CpVeCnCPNoQNRzmn1E4NBN0vNm7wdfno6/3GNgaLBoajcL9l9ukP2HJ2ds/U8m18zUDft6+JihxBp1N3mQlpLUALgD4jVaBwNWZvFIA5wVGuREIfk3suzntaeDhiCfNYtHhcy+j8+xlb+SRdFQzVLiFZ3YhuI910lQd9MYPTZzqa0XwXVfdws+Vqwa0+innlSI7tkXuiJmFQECFAyITHW1BJ0KaYRPe1h4ESgCUPhQrEPJnT7K8+O7smP4FX/2El17181P/IH9K6UMGxTEAKl+JMfi1TK0kq2xDmbLMLDUln1+RI6HatFJiWJo96WtqA2JdqORMCEmFTihUGkBm7ASUqTEJ5SpNQbVx1dtrtKAgIldhzBwAodEBSOr9gEKj68iMfQxl2r2Fco2BQLWdGHxgjaEwoOUUoXIRWkw9ATNobFbSUrvQILqN0LnNKirJ9vE4QTkNVixVpsh6qwkrQY2xxOnRpblcJEZSNgtWBa4jzGYbZqdsRkLjkuldLnueXE6WvZFMY7MA1BwKQcWFoIVRmwBjoGFjRbqVXdDc77ch6LiZqVA1RRVKHIHiZOgfk0pG0QJZLbC2KrqW4U4eOmlcXEg8jUSxscBUQR3BbLpsMPbycUYEDRcZfQ+HXR45Kke2FcjmF1mebhNUM6QpzOBCWm8FAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1601891866930') format('woff'),
+  url('iconfont.ttf?t=1601891866930') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1601891866930#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-QQ:before {
+  content: "\e610";
+}
+
