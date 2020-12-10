@@ -111,6 +111,7 @@ a:hover{text-decoration: underline;}
     margin: 200px auto 0;
     
 }
+#bannar a.index5{position: absolute;top: -200px;display: block;width: 1000px;height: 290px;}
 #bannar .bannar-lt{
     background: url(../飞车imgs/down_user_spr.png) no-repeat 0 0;
     width: 241px;

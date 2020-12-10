@@ -1,6 +1,6 @@
 #header {height: 41px;}
 #header .logo{float: left;}
-#header .logo .game{display: block;background: url(.../飞车imgs/top.jpg) 0 -43px no-repeat;width: 230px;
+#header .logo .game{display: block;background: url(../飞车imgs/top.jpg) 0 -43px no-repeat;width: 230px;
 height: 41px;cursor: pointer;}
 #header .logo .number{display: block;background: url(../飞车imgs/top.jpg) 0 -85px no-repeat;width: 230px;
 height: 41px;cursor: pointer;}
@@ -56,84 +56,82 @@ position: absolute;width: 72px;left: 120px;top: 20px;display: none;}
 #section ul li.active{background-position: -10px -90px;color: #000;}
 #section ul li.active span i{background-position: -317px -240px;}
 #section ul li span{display: inline-block;position: relative;}
+#section .pic_dec{display: none;}
+#section .pic_dec strong{font-size: 24px;color: #ffc37c;display: block;line-height: 40px;font-weight: normal;}
 #section ul li span i {display: block;background: url(../飞车imgs/spr2.png) no-repeat -333px -240px;width: 7px;height: 11px;position: absolute;right: -20px;top: 30px;}
-#section #ul_2{width: 980px;margin-top:0px;margin-top: 60px;}
-#section .section3 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;z-index: 10;margin-top: 60px;display: flex;justify-content: center;align-items: center;}
+#section .section3 #ul_2{width: 980px;margin-top:0px;margin-top: 80px;}
+#section .section3 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;z-index: 10;margin-top: 40px;display: flex;justify-content: center;align-items: center;}
 #section .section3 .pic_box img{display: none;}
-#section .section3 .pic_dec{font-size: 16px;color: #ffffff;height: 30px;text-align: center;line-height: 60px;}
+#section .section3 .pic_dec{font-size: 16px;color: #ffffff;height: 30px;text-align: center;line-height: 40px;}
 #section .section3 .t2{background: url(../飞车imgs/t2.png) no-repeat center 0;height: 127px;display: block;margin-top: 140px;}
 
 
 
 
-
-
-
-
-
-#section .section4 {background: url(../飞车imgs/bg04.jpg) no-repeat center 0;height: 3000px;box-sizing: border-box;}
+#section .section4 {background: url(../飞车imgs/bg04.jpg) no-repeat center 0;height: 3000px;box-sizing: border-box;padding-top: 40px;}
 #section .section4 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;display: flex;justify-content: center;align-items: center;}
 #section .section4 .pic_box img{display: none;}
 #section .section4 .pic_dec{font-size: 16px;color: #ffffff;height: 20px;line-height: 80px;text-align: center;}
-#section .section4 .t3{background: url(../飞车imgs/t3.png) no-repeat center 0;height: 127px;display: block;margin-top: 160px;}
+#section .section4 .t3{background: url(../飞车imgs/t3.png) no-repeat center 0;height: 127px;display: block;margin-top: 200px;}
 #section .section4 #ul_3{width: 980px;margin-top:60px;}
 #section .section4 #pic_3{margin-top: 60px;}
 #section .section4 #ul_4{width: 490px;margin-top: 60px;}
-#section .section4 .t4{background: url(../飞车imgs/t4.png) no-repeat center 0;height: 127px;display: block;margin-top: 160px;}
+#section .section4 .t4{background: url(../飞车imgs/t4.png) no-repeat center 0;height: 127px;display: block;margin-top: 200px;}
+#section .section4 #pic_4{margin-top: 60px;}
+#section .section4 #pic_4 .origin{display: none;}
 #section .section4 div.pic_dec strong{display: block;color: #ffc37c;font-size: 24px;font-weight: normal;height: 70px;margin-top: 20px;}
 #section .section4 div.pic_dec p{line-height: 26px;}
 
 
 
 
-#section .section5 {background: url(../飞车imgs/bg05.jpg) no-repeat center 0;height: 3000px;box-sizing: border-box;padding-top: 100px;}
+#section .section5 {background: url(../飞车imgs/bg05.jpg) no-repeat center 0;height: 3000px;box-sizing: border-box;padding-top: 200px;}
 #section .section5 .t5{background: url(../飞车imgs/t5.png) no-repeat center 0;height: 127px;display: block;}
 #section .section5 #ul_5{width: 980px;margin-top:60px;}
 #section .section5 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;display: flex;justify-content: center;align-items: center;}
 #section .section5 .pic_box img{display: none;}
-#section .section5 #pic_5{margin-top: 60px;}
+#section .section5 #pic_5{margin-top: 100px;}
 #section .section5 .pic_dec{text-align: center;color: white;margin-top: 30px;}
-#section .section5 .t6{background: url(../飞车imgs/t6.png) no-repeat center 0;height: 127px;display: block;margin-top: 60px;}
+#section .section5 .t6{background: url(../飞车imgs/t6.png) no-repeat center 0;height: 127px;display: block;margin-top: 200px;}
 #section .section5 #ul_6{width: 735px;margin-top:60px;font-size: 22px;}
 #section .section5 #ul_6 li{padding-right: 22px;box-sizing: border-box;}
 #section .section5 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;display: flex;justify-content: center;align-items: center;}
 #section .section5 .pic_box img{display: none;}
-#section .section5 #pic_6{margin-top: 60px;}
+#section .section5 #pic_6{margin-top: 80px;}
 #section .section5 .pic_dec{text-align: center;color: white;margin-top: 30px;}
+#section .section5 .t7{background: url(../飞车imgs/t7.png) no-repeat center 0;height: 127px;display: block;margin-top: 160px;}
+#section .section5 #ul_7{width: 735px;margin-top:80px;font-size: 22px;}
 
 
 
 
+#section .section6 {background: url(../飞车imgs/bg06.jpg) no-repeat center 0;height: 3000px;box-sizing: border-box;}
+#section .section6 .car{display: none;}
+#section .section6 .t8{background: url(../飞车imgs/t8.png) no-repeat center 0;height: 127px;display: block;margin-top: 40px;}
+#section .section6 #ul_8{width: 980px;margin-top:40px;font-size: 22px;}
+#section .section6 #pic_8{margin-top: 40px;}
+#section .section6 .pic_box{background: url(../飞车imgs/box1.png) no-repeat center 0 ;height: 631px;display: flex;justify-content: center;align-items: center;}
+#section .section6 .pic_box img{display: none;}
+#section .section6 .pic_dec{text-align: center;color: white;margin-top: 30px;}
+#section .section6 .t9{background: url(../飞车imgs/t9.png) no-repeat center 0;height: 127px;display: block;margin-top: 40px;}
+#section .section6 #ul_9{width: 735px;margin-top:60px;font-size: 22px;}
+#section .section6 #pic_9{margin-top: 40px;}
+#section .section6 .t10{background: url(../飞车imgs/t10.png) no-repeat center 0;height: 127px;display: block;margin-top: 100px;}
 
+#section .section7 {background: url(../飞车imgs/bg07.jpg) no-repeat center 0;height: 752px;box-sizing: border-box;padding-top: 10px;}
 
+#section .section7 .page10-st{height: 52px;font-size: 28px;line-height: 52px;color: #ffc37c;text-align: center;position: relative;width: 520px;display: block;margin: 0 auto;}
+#section .section7 .page10-st strong:after{content: '';display: block;width: 153px;height: 19px;background: url(../飞车imgs/tl.png) no-repeat ;position: absolute;top: 20px;z-index: 999;}
+#section .section7 .page10-st strong:before{content: '';display: block;width: 153px;height: 19px;background: url(../飞车imgs/tl.png) no-repeat ;position: absolute;top: 20px;z-index: 999;right: 0px;}
+#section .section7 .page10-text {font-size: 16px;color: #ffffff;text-align: center;margin-top: 12px;line-height: 30px;
+margin-bottom: 42px;}
+#section .afooter{width: 100%;height: 100px;background: #000;font-size: 12px;text-align: center;color: #ffffff;padding-top: 35px;}
+#section .afooter P{line-height: 18px;}
 
-
-
-
-
-
-
-
-
-#section .section6 {background: url(../飞车imgs/bg06.jpg) no-repeat center 0;height: 3000px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#section .section7 {background: url(../飞车imgs/bg07.jpg) no-repeat center 0;height: 752px;}
+.swiper-container{width: 1323px;height: 631px;position: relative;}
+.swiper-container .swiper-slide{position: relative;}
+.swiper-container .spr{width: 48px;height: 95px;display: inline-block;background: url(../飞车imgs/spr2.png) no-repeat; position: absolute;z-index: 999;}
+.swiper-container .btn_prev{background-position: -317px -10px;top: 50%;}
+.swiper-container .btn_next{background-position: -317px -120px;top: 50%;right: 0px;}
+.swiper-container .swiper-pagination .swiper-pagination-bullet{display: inline-block;width: 30px;height: 17px;margin: 0 7px;background: url(../飞车imgs/spr2.png) -310px -261px no-repeat;border-radius: 0%;}
+.swiper-container .swipe-pagination .swiper-pagination-bullet-active{background-position: -271px -261px;color: #000000;}

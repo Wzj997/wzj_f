@@ -6,6 +6,10 @@
         <title>Document</title>
         <script src="../js/feiche5.js"></script>
         <link rel="stylesheet" href="../css/feiche5.css">
+        <link rel="stylesheet" href="../css/swiper.css">
+        <script src="../js/vue.js"></script>
+        <script src="../js/swiper.js"></script>
+   
         <style>
             *{padding: 0;margin: 0;}
             ul{list-style: none;}
@@ -16,7 +20,7 @@
             .content{width: 100%;position: relative;}
             .r{float: right;}
             .l{float: left;}
-           
+
         </style>
     </head>
     <body>
@@ -25,7 +29,7 @@
                 <span class="game l"></span>
                 <span class="number l"></span>
             </div>
-            <span class="return r"><a>返回官网首</a></span>
+            <span class="return r"><a href="./index2.html">返回官网首</a></span>
             <i class="r"></i>
             <span class="download r">游戏下载</span>
         </div>
@@ -86,11 +90,26 @@
                     <img src="../飞车imgs/p1-t4-img1.jpg">
                     <img src="../飞车imgs/p1-t5-img1.png">
                 </div>
-                <p class="pic_dec">
-                    参与绝命车王比赛钻石段位以下的车手依据名次可以获得段位分，全段位车手可以获得排位币，每日分别为X分，X币。</p>
+                <div id="p1">
+                    <p class="pic_dec" style="display: block;">     
+                        完整的比赛是48个玩家通过4轮的比拼决出最后的生存者，具体是第一轮48减至24人，第二轮24人减到12人，第三轮12人减到6人，最终轮决出各个玩家的名次。<br>参与绝命车王在钻石段位以下的车手都可以获得排位分提升段位，全段位的车手都可以获得排位币。</p>
+                        <p class="pic_dec">
+                            选择卡牌BUFF或升级卡牌BUFF，可选择一个新的卡牌或升级已有的卡牌，每个卡牌分为LV1和MAX两级，即紫色和金色。
+                        </p>
+                        <p class="pic_dec">
+                            本局玩家有S和T车，这位玩家被淘汰，就会有几率拿到他的车子，抽取的车子限制在本局中使用～
+                        </p>
+                        <p class="pic_dec">
+                            参与绝命车王比赛钻石段位以下的车手依据名次可以获得段位分，全段位车手可以获得排位币，每日分别为X分，X币。
+                        </p>
+                        <p class="pic_dec">
+                            特洛伊·竞魂套装、特洛伊主题背饰、特洛伊主题手持、繁海沐羽座椅、S车-暗夜极光。
+                        </p>
+                </div>
+             
                 <h2 class="t2"></h2>
                 <ul id="ul_2">
-                    <li><span>全新赛季<i></i></span></li>
+                    <li class="active"><span>全新赛季<i></i></span></li>
                     <li><span>赛季里程刷新<i></i></span></li>
                     <li><span>赛车测试计划<i></i></span></li>
                     <li><span>专属奖励<i></i></span></li>
@@ -103,35 +122,54 @@
                 <img src="../飞车imgs/p2-t3-img1.jpg">
                 <img src="../飞车imgs/p2-t4-img1.png">
                </div>
-               <p class="pic_dec">
-                欢迎来到S22赛季-车王争霸，本赛季由大家熟悉的车厂特洛伊工业再次赞助！</p>
+               <div id="p2">
+                <p class="pic_dec" style="display: block;">
+                    欢迎来到S22赛季-车王争霸，本赛季由大家熟悉的车厂特洛伊工业再次赞助！</p>
+                    <p class="pic_dec">
+                        新赛季赛季里程将重置，玩家参与排位赛可积累进度，进度达到每个节点可获得对应的点券奖励。</p>
+                        <p class="pic_dec">
+                            从本赛季开始，每个赛季赞助车厂会提供三辆顶级A车给玩家免费试驾，完成每日5次试驾任务还可以获得专属测试奖励。</p>
+                            <p class="pic_dec">
+                                赛季限定产出飞饰、套装、炫光、背饰。</p>
+               </div>
+              
                 <h2 class="t3"></h2>
                 <ul id="ul_3">
-                    <li><span>车库展示<i></i></span></li>
+                    <li class="active"><span>车库展示<i></i></span></li>
                     <li><span>赛车收藏度等级<i></i></span></li>
                     <li><span>赛车预览<i></i></span></li>
                     <li><span>新闻详情<i></i></span></li>
                 </ul>
                 <div class="pic_box" id="pic_3">
-                    <img src="../飞车imgs/p1-t1-img1.jpg" style="display: block;">
-                    <img src="../飞车imgs/p1-t2-img1.jpg">
-                    <img src="../飞车imgs/p1-t3-img1.jpg">
-                    <img src="../飞车imgs/p1-t4-img1.jpg">
+                    <img src="../飞车imgs/p5-t1-img1.jpg" style="display: block;">
+                    <img src="../飞车imgs/p5-t2-img1.jpg">
+                    <img src="../飞车imgs/p5-t3-img1.jpg">
+                    <img src="">
                 </div>
-                <p class="pic_dec">
-                    欢迎来到S22赛季-车王争霸，本赛季由大家熟悉的车厂特洛伊工业再次赞助！</p>
+                <p class="pic_dec" style="display: block;">
+                    鼠标选择一个车位放置自己喜欢的赛车，车库内分展台“上部区域”和“下部区域”，上部区域可供机甲/非机甲赛车摆放，下部区域只可以放置非机甲赛车。</p>
+                    <p class="pic_dec">
+                        1.拥有永久赛车的数量计算收藏度，根据历史最高收藏度确定等级，每一个等级可以解锁对应的专属称号、后续还有专属背景大放送（详细开放日期请查看具体公告）。<br>2.全新“赛车红人”红人榜开启，收藏度越高排名越高，你就是赛车收藏家！<br>3.通过赛车红人榜查看玩家信息自动跳转到玩家的车库页面！</p>
+                        <p class="pic_dec">
+                            鼠标选择一个车位放置自己喜欢的赛车，车库内分展台“上部区域”和“下部区域”，上部区域可供机甲/非机甲赛车摆放，下部区域只可以放置非机甲赛车。</p>
+                            
 
                 <h2 class="t4"></h2>
                 <ul id="ul_4">
-                    <li><span>赛道原画<i></i></span></li>
+                    <li class="active"><span>赛道原画<i></i></span></li>
                     <li><span>推荐跑法<i></i></span></li>
                 </ul>
-                <div class="pic_box" id="pic_3">
-                    <img src="../飞车imgs/p1-t1-img1.jpg" style="display: block;">
-                    <img src="../飞车imgs/p1-t2-img1.jpg">
+                <div class="pic_box" id="pic_4">
+                    <div class="origin" style="display: block;">
+                        <img src="../飞车imgs/p3-img1.jpg" style="display: block;">
+                    </div>
+                  
+                    <div class="origin">
+                        <video src="../飞车imgs/s3204jgqv28.mp4" controls="controls"  autoplay="autoplay" poster="../飞车imgs/s3204jgqv28.png" style="outline: none;"></video>
+                    </div>
                     
                 </div>
-                <div class="pic_dec"><strong>星梦游乐园 ★★★</strong>
+                <div class="pic_dec" style="display: block;"><strong>星梦游乐园 ★★★</strong>
                     <p>绚烂灯光，点亮游乐园喧嚣的璀璨，在漂移中体验热闹的梦幻；炫丽舞台，舞动游乐园夺目的闪耀，在疾驰中感受多姿的色彩；<br>缤纷音符，奏响游乐园悦动的节拍，在飞跃中涟漪心海的迷离。</p>
                 </div>
 
@@ -139,42 +177,180 @@
             <div class="section5">
                  <h2 class="t5"></h2>
                 <ul id="ul_5">
-                    <li><span>雪球大作战<i></i></span></li>
+                    <li class="active"><span>雪球大作战<i></i></span></li>
                     <li><span>圣诞树奇缘<i></i></span></li>
                     <li><span>心愿缤纷了<i></i></span></li>
                     <li><span>极品奖励<i></i></span></li>
                 </ul>
                 <div class="pic_box" id="pic_5">
-                    <img src="../飞车imgs/p1-t1-img1.jpg" style="display: block;">
-                    <img src="../飞车imgs/p1-t2-img1.jpg">
-                    <img src="../飞车imgs/p1-t3-img1.jpg">
-                    <img src="../飞车imgs/p1-t4-img1.jpg">
+                    <img src="../飞车imgs/p4-t1-img1.jpg" style="display: block;">
+                    <img src="../飞车imgs/p4-t2-img1.jpg">
+                    <img src="../飞车imgs/p4-t3-img1.jpg">
+                    <img src="../飞车imgs/p4-t4-img1.png">
                 </div>
-                <p class="pic_dec">
-                    消耗雪球攻击【梦幻魔龙】即可获得冰雪结晶，累计收集冰雪结晶达到一定数量可获得限定套装-软萌雪人套装。<br>11月20日准时开启</p>
+                <div id="p5">
+                    <p class="pic_dec" style="display: block;">
+                        消耗雪球攻击【梦幻魔龙】即可获得冰雪结晶，累计收集冰雪结晶达到一定数量可获得限定套装-软萌雪人套装。<br>11月20日准时开启</p>
+                        <p class="pic_dec">
+                            完成任务获得许愿次数，通过许愿可获得圣诞树上的奖励，许愿50次必得永久奖励。<br>12月12日准时开启</p>
+                            <p class="pic_dec">
+                                每日开启2张卡牌，完成指定任务即可获得对应奖励。</p>
+                                <p class="pic_dec">
+                                    水晶先锋、幻耀之钻、雪语圣铃座椅、喵萌暖冬套装、软萌雪人套装、呆萌毛绒兔背饰、甜心猫爪手杖。</p>
+                </div>
+             
 
                 <h2 class="t6"></h2>
                 <ul id="ul_6">
-                    <li><span>外改系统全面升级<i></i></span></li>
+                    <li class="active"><span>外改系统全面升级<i></i></span></li>
                     <li><span>外改部件全面改版<i></i></span></li>
                     <li><span>新闻详情<i></i></span></li>
                 
                 </ul>
                 <div class="pic_box" id="pic_6">
-                    <img src="../飞车imgs/p1-t1-img1.jpg" style="display: block;">
-                    <img src="../飞车imgs/p1-t2-img1.jpg">
-                    <img src="../飞车imgs/p1-t3-img1.jpg">
+                    <img src="../飞车imgs/p6-t1-img1.jpg" style="display: block;">
+                    <img src="../飞车imgs/p6-t2-img1.jpg">
+                    <img src="">
                   
                 </div>
-                <p class="pic_dec">
+                <p class="pic_dec" style="display: block;">
                     告别繁琐的改装流程，现在的外形改装只需两步轻松搞定。</p>
+                    <p class="pic_dec">
+                        更换外改不再需要赛车拆卸卡，让您像换衣服一样，随心所欲，想换就换。</p>
+
+                    <h2 class="t7"></h2>
+                    <ul id="ul_7">
+                        <li class="active"><span>S车<i></i></span></li>
+                        <li><span>T1机甲<i></i></span></li>
+                        <li><span>A车<i></i></span></li>
+                    
+                    </ul>
+                  
+
 
             </div>
             <div class="section6">
-               123
+
+                <div class="pic_box" id="pic_7">
+
+                    <div class="car" style="display: block;">
+                        <img src="../飞车imgs/p7-t1-img1.png" style="display: block;">
+                    </div>
+                    <div class="car">
+                        <img src="../飞车imgs/p7-t2-img1.png" style="display: block;">
+                    </div>
+                    <div class="car">
+                
+                            <div class="swiper-container a">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="../飞车imgs/p7-t3-img1.png" style="display: block;">
+                                      
+                                    </div>      
+                                    <div class="swiper-slide">
+                                        <img src="../飞车imgs/p7-t3-img2.png" style="display: block;">
+                                    </div>         
+                                    <div class="swiper-slide">
+                                        <img src="../飞车imgs/p7-t3-img3.png" style="display: block;">
+                                    </div>  
+                                                 
+                                   
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="btn_prev spr"></div>
+                                <div class="btn_next spr"></div>
+                              
+                              
+                            </div>
+                        </div>
+            
+              
+                  
+                </div>
+                <div id="p7">
+                    <p class="pic_dec" style="display: block;"><strong>代达罗斯</strong>
+                    </p>
+                    <p class="pic_dec"><strong>利刃天狼</strong>
+                    </p>
+                    <p class="pic_dec"><strong>天翼直升机</strong>
+                    </p>
+                </div>
+             
+
+
+                <h2 class="t8"></h2>
+                <ul id="ul_8">
+                    <li class="active"><span>个性装扮<i></i></span></li>
+                    <li><span>雍容华服<i></i></span></li>
+                    <li><span>仙侠古风<i></i></span></li>
+                    <li><span>精品推荐<i></i></span></li>
+
+                
+                </ul>
+                <div class="pic_box" id="pic_8">
+                    <img src="../飞车imgs/p8-t1-img1.png" style="display: block;">
+                    <img src="../飞车imgs/p8-t2-img1.png">
+                    <img src="../飞车imgs/p8-t3-img1.png">
+                    <img src="../飞车imgs/p8-t4-img1.png">
+                  
+                </div>
+               
+
+                    <h2 class="t9"></h2>
+                    <ul id="ul_9">
+                        <li class="active"><span>双人坐骑<i></i></span></li>
+                        <li><span>新宠物<i></i></span></li>
+                        <li><span>强化宠物<i></i></span></li>
+                    
+                    </ul>
+                    <div class="pic_box" id="pic_9">
+                        <img src="../飞车imgs/p9-t1-img1.png" style="display: block;">
+                        <img src="../飞车imgs/p9-t1-img2.png">
+                        <img src="../飞车imgs/p9-t1-img3.png">
+                      
+                    </div>
+                    <p class="pic_dec" style="display: block;"><strong>甜品小筑座椅</strong>坐在软糯如云的棉花糖上，倚靠提拉米苏甜甜圈，脚下更有香甜蛋糕和香浓玛卡龙，星星糖在跳跃舞蹈，甜美如蜜，不容辜负。
+                   </p>
+                   <h2 class="t10"></h2>
+
+                  
             </div>
             <div class="section7">
-               134
+
+               
+                <div class="page10-st">
+                    <strong>跨服立即竞速</strong>
+                </div>
+                <p class="page10-text">支持联通、电信1、电信2三大区打通，跨服立即竞速，提升匹配效率。</p>
+                <div class="page10-st">
+                 <strong>背包新功能</strong>
+             </div>
+             <p class="page10-text">星标：可以让赛车手们将常用的道具放在星标页内集中展示，最多24个。<br>
+                 置顶：每个页面可以置顶最多3个道具。</p>
+             <div class="page10-st">
+                 <strong>车神争霸赛</strong>
+             </div>
+             <p class="page10-text">1、地图列表展示优化<br>
+                 2、新增地图搜索功能<br>
+                 3、车神争霸的打榜、观看录像、影子挑战都可以在局内退出比赛。
+             </p>
+             <div class="page10-st">
+                 <strong>排位赛优化</strong>
+             </div>
+             <p class="page10-text">
+                 1、排位训练场中新增小喷灯提示<br>
+                 2、优化排位赛晋级赛体验——青铜白银不需晋级赛，黄金晋级赛五胜一，铂金五胜二，钻石星耀五胜三<br>
+                 3、优化排位赛举报体验和举报反馈机制
+             </p>
+            </div>
+            <div class="afooter">
+                <p>
+                    腾讯互动娱乐 | 服务条款 | 隐私保护指引 | 儿童隐私保护指引 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏列表 | 成长守护平台 | 广告服务及商务合作<br>
+    
+    COPYRIGHT © 1998 – 2020 TENCENT. ALL RIGHTS RESERVED.<br>
+    
+    腾讯公司 版权所有<br>
+                </p>
             </div>
         </div>
     </body>
